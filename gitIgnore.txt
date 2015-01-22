@@ -1,0 +1,6 @@
+Crear un archivo llamando .gitignore en donde se listan los patrones de los archivos que se desean ser ignorados.
+Ejemplo:
+
+*.[oa]
+*~
+La primera línea le dice a Git que ignore cualquier archivo cuyo nombre termine en .o o .a —archivos objeto que suelen ser producto de la compilación de código—. La segunda línea le dice a Git que ignore todos los archivos que terminan en tilde (~), usada por muchos editores de texto, como Emacs, para marcar archivos temporales. También puedes incluir directorios de log, temporales, documentación generada automáticamente, etc. 
